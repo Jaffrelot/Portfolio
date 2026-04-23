@@ -67,7 +67,7 @@ const Projets = ref([
     id:1,
     titre:"Plateforme web de chiffrage automatisé des projets de construction",
     descr:" Intégration d'un chatbot intelligent capable d’assister les utilisateurs dans l’élaboration du Sous-Détail des Prix (SDP) en facilitant la recherche et la saisie des informations nécessaires.",
-    image:"../public/Plateforme web de chiffrage automatisé des projets de construction.png",
+    image:"/images/Plateforme web de chiffrage automatisé des projets de construction.png",
     categorie:"Fullstack",
     BadgeCouleur:"bg-blue-500",
     technologie:[{
@@ -99,7 +99,7 @@ const Projets = ref([
     id:2,
     titre:"Portfolio App",
     descr:"Cette application Portfolio met en avant mes projets et mes compétences en développement web. L'objectif est de mettre en valeur mes réalisations.",
-    image:"../public/Portfolio.png",
+    image:"/images/Portfolio.png",
     categorie:"Frontend",
     BadgeCouleur:"bg-cyan-700",
     technologie:[{
@@ -121,7 +121,7 @@ const Projets = ref([
     id:3,
     titre:"Plateforme de Télépaiement en matière ISI",
     descr:"Permettre à tout le contribuable et l’entreprise assujetti à l’impôt de consulter l’annexe à la déclaration d’impôt",
-    image:"../public/Plateforme de Télépaiement en matière ISI.jpg",
+    image:"/images/Plateforme de Télépaiement en matière ISI.jpg",
     categorie:"Fullstack",
     BadgeCouleur:"bg-cyan-500",
     technologie:[{
