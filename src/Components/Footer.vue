@@ -8,7 +8,7 @@
                     A. Jaffrelot Bizoux Abrivard
                 </div>
                 <p class="text-blue-200 text-sm leading-relaxed max-w-md">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab sapiente a fugiat illo ullam maiores, voluptatem porro eligendi omnis doloribus totam quasi natus aliquam maxime optio corporis deleniti. Veniam?
+                    Lorem z dolor sit amet consectetur adipisicing elit. Modi ab sapiente a fugiat illo ullam maiores, voluptatem porro eligendi omnis doloribus totam quasi natus aliquam maxime optio corporis deleniti. Veniam?
                 </p>
                 <div class="flex gap-4 mt-6">
                     <a href="#" class="p-2 bg-blue-500/20 border border-blue-400/30 rounded-lg text-blue-400 hover:bg-blue-500/30 transition-all">
