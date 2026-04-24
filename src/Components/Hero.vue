@@ -30,7 +30,7 @@
             </a>
 
             <!-- 2eme button -->
-            <a href="/public/CV_ANDRIATSITOHAINARIVO_Jaffrelot.pdf" download="CV_Jaffrelot.pdf" class="border-2 text-blue-400 border-blue-400 group px-8 py-4 rounded-xl w-full sm:w-max hover:bg-blue-400/10 transition-all duration-300">
+            <a href="/public/CV_ANDRIATSITOHAINARIVO_Jaffrelot.pdf" download="CV_ANDRIATSITOHAINARIVO_Jaffrelot.pdf" class="border-2 text-blue-400 border-blue-400 group px-8 py-4 rounded-xl w-full sm:w-max hover:bg-blue-400/10 transition-all duration-300">
                 <div class="flex items-center justify-center relative">
 
                     <ArrowDownTrayIcon class="w-5 h-5 group-hover:translate-y-1 transition-transform"/>
@@ -43,16 +43,16 @@
 
 <div class="flex items-center justify-center lg:justify-start gap-8 pt-12">
     <div class="text-center">
-        <div class="text-2xl font-bold text-blue-400">50+</div>
+        <div class="text-2xl font-bold text-blue-400">15+</div>
         <div class="text-blue-200 text-sm">Projets</div>
     </div>
     <div class="text-center">
-        <div class="text-2xl font-bold text-blue-400">50+</div>
-        <div class="text-blue-200 text-sm">Projets</div>
+        <div class="text-2xl font-bold text-blue-400">3</div>
+        <div class="text-blue-200 text-sm">Services</div>
     </div>
     <div class="text-center">
-        <div class="text-2xl font-bold text-blue-400">50+</div>
-        <div class="text-blue-200 text-sm">Projets</div>
+        <div class="text-2xl font-bold text-blue-400">10+</div>
+        <div class="text-blue-200 text-sm">Technologies</div>
     </div>
 </div>
 
