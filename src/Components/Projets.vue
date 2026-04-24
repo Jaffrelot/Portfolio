@@ -1,5 +1,5 @@
 <template>
-    <section class="relative py-20 overflow-hidden" id="projets">
+    <section class="relative overflow-hidden" id="projets">
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="text-center mb-16" data-aos="fade-up">

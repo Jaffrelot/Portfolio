@@ -6,7 +6,7 @@
         <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 items-center">
             <div class="flex flex-col md:mt-0 mt-20 justify-center">
              <div class="text-white lg:text-left" data-aos="fade-right">
-                <h1 class="text-white font-bold md:text-4xl lg:text-5xl text-4xl leading-tight">
+                <h1 class="text-white font-bold md:text-4xl lg:text-5xl text-3xl leading-tight">
                     Bonjour, Je m'appelle <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">ANDRIATSITOHAINARIVO Jaffrelot Bizoux Abrivard</span>
                 </h1>
             <!-- description -->
@@ -22,15 +22,15 @@
           <div class="flex flex-col pt-8 gap-4 sm:flex-row sm:mx-auto sm:w-max lg:mx-0" data-aos="fade-up" data-aos-delay="300">
             
             <!-- 1er button -->
-            <button class="px-8 py-4 rounded-xl relative group w-full flex justify-center overflow-hidden sm:w-max bg-linear-to-r from-blue-600 to-cyan-600 hover:from-blue-500 transition-all duration-300">
+            <a href="#contact" class="px-8 py-4 rounded-xl relative group w-full flex justify-center overflow-hidden sm:w-max bg-linear-to-r from-blue-600 to-cyan-600 hover:from-blue-500 transition-all duration-300">
                 <span class="relative flex items-center text-white font-semibold text-lg">
                     Contactez-moi
                     <ArrowRightIcon class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"/>
                 </span>
-            </button>
+            </a>
 
             <!-- 2eme button -->
-            <button class="border-2 text-blue-400 border-blue-400 group px-8 py-4 rounded-xl w-full sm:w-max hover:bg-blue-400/10 transition-all duration-300">
+            <a href="/public/CV_ANDRIATSITOHAINARIVO_Jaffrelot.pdf" download="CV_Jaffrelot.pdf" class="border-2 text-blue-400 border-blue-400 group px-8 py-4 rounded-xl w-full sm:w-max hover:bg-blue-400/10 transition-all duration-300">
                 <div class="flex items-center justify-center relative">
 
                     <ArrowDownTrayIcon class="w-5 h-5 group-hover:translate-y-1 transition-transform"/>
@@ -38,7 +38,7 @@
 
                 </div>
                  
-            </button>  
+            </a>  
           </div>
 
 <div class="flex items-center justify-center lg:justify-start gap-8 pt-12">

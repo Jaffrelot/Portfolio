@@ -2,7 +2,7 @@
     <section class="relative py-5 overflow-hidden" id="contact">
       <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
   
-        <div class="text-center m-16">
+        <div class="text-center m-16" data-aos="fade-up">
           <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
             Me <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
               contacter
@@ -16,7 +16,7 @@
         <div class="grid lg:grid-cols-2 gap-12">
   
           <!-- INFOS -->
-          <div>
+          <div data-aos="fade-right">
             <h3 class="text-2xl font-bold text-white mb-6 md:text-center">
               Coordonnées
             </h3>
@@ -49,7 +49,7 @@
           </div>
   
           <!-- FORM -->
-          <div>
+          <div data-aos="fade-left">
             <form @submit.prevent="sendEmail" class="space-y-6">
   
               <div class="grid sm:grid-cols-2 gap-6">

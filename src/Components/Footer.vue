@@ -8,7 +8,7 @@
                     A. Jaffrelot Bizoux Abrivard
                 </div>
                 <p class="text-blue-200 text-sm leading-relaxed max-w-md">
-                    Lorem z dolor sit amet consectetur adipisicing elit. Modi ab sapiente a fugiat illo ullam maiores, voluptatem porro eligendi omnis doloribus totam quasi natus aliquam maxime optio corporis deleniti. Veniam?
+                    Passionné par le développement web, je crée des solutions modernes adaptées aux besoins des utilisateurs.
                 </p>
                 <div class="flex gap-4 mt-6">
                     <a href="#" class="p-2 bg-blue-500/20 border border-blue-400/30 rounded-lg text-blue-400 hover:bg-blue-500/30 transition-all">
@@ -54,14 +54,14 @@
         <!-- bottom bar -->
         <div class="border-t border-blue-500/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-blue-300 text-sm">
-                    @ 2026 Jaffrelot. All rights reserved
+                    @ {{ AnneeActuel }} Jaffrelot. Tous droits réservés
                 </p>
                 <div class="flex gap-6 mt-4 md:mt-0">
                     <a href="#" class="text-blue-400 text-sm transition-colors">
-                        Privacy Policy
+                        Politique de confidentialité
                     </a>
                     <a href="#" class="text-blue-400 text-sm transition-colors">
-                        Terms of Service
+                        Condition d'utilisation
                     </a>
                 </div>
              </div>
@@ -71,7 +71,7 @@
 
 <script setup>
 import { EnvelopeIcon,MapPinIcon,PhoneIcon } from '@heroicons/vue/16/solid';
-
+const AnneeActuel = new Date().getFullYear()
 const lienRapide = [
     {name: 'Accueil',href: '#accueil'},
     {name: 'Compétence',href: '#expérience'},

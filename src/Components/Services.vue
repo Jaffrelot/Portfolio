@@ -1,6 +1,6 @@
 <template>
   
-<section class="py-10">
+<section>
     <div class="max-w-7xl mx-auto px-4 text-white sm:px-6 lg:px-8">
         <div class="text-center m-16" data-aos="fade-up">
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
