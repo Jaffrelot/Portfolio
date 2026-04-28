@@ -6,16 +6,16 @@
         <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 items-center">
             <div class="flex flex-col md:mt-0 mt-20 justify-center">
              <div class="text-white lg:text-left" data-aos="fade-right">
-                <h1 class="text-white font-bold md:text-4xl lg:text-5xl text-3xl leading-tight">
+                <h1 class="text-gray-800 font-bold md:text-4xl lg:text-5xl text-3xl leading-tight dark:text-white">
                     Bonjour, Je m'appelle <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">ANDRIATSITOHAINARIVO Jaffrelot Bizoux Abrivard</span>
                 </h1>
             <!-- description -->
-            <p class="text-blue-200 font-medium text-lg md:text-xl mt-4" data-aos="fade-right" data-aos-delay="100">
+            <p class="text-blue-400 dark:text-blue-200 font-medium text-lg md:text-xl mt-4" data-aos="fade-right" data-aos-delay="100">
                 Développeur Full-Stack
             </p>
         </div>
         
-         <p class="text-gray-300 pt-6 max-w-xl text-center lg:text-left mx-auto text-lg leading-relaxed" data-aos="fade-right" data-aos-delay="200">
+         <p class="text-gray-500 dark:text-gray-300 pt-6 max-w-xl text-center lg:text-left mx-auto text-lg leading-relaxed" data-aos="fade-right" data-aos-delay="200">
             Passionné par le monde informatique, je souhaite mettre mes compétences en développement au service d’une entreprise.</p>
 
          <!-- bouton cv et contacter -->
