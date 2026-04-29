@@ -6,6 +6,11 @@
         <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 items-center">
             <div class="flex flex-col md:mt-0 mt-20 justify-center">
              <div class="text-white lg:text-left" data-aos="fade-right">
+                <div class="inline-flex items-center gap-2 bg-violet-50 dark:bg-violet-500/10 border border-violet-200 dark:border-violet-500/30 text-violet-600 dark:text-violet-400 px-4 py-2 rounded-full text-xs tracking-widest uppercase mb-8">
+                    <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+                     Disponible pour des projets
+                </div>
+                
                 <h1 class="text-gray-800 font-bold md:text-4xl lg:text-5xl text-3xl leading-tight dark:text-white">
                     Bonjour, Je m'appelle <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">ANDRIATSITOHAINARIVO Jaffrelot Bizoux Abrivard</span>
                 </h1>
@@ -17,6 +22,8 @@
         
          <p class="text-gray-500 dark:text-gray-300 pt-6 max-w-xl text-center lg:text-left mx-auto text-lg leading-relaxed" data-aos="fade-right" data-aos-delay="200">
             Passionné par le monde informatique, je souhaite mettre mes compétences en développement au service d’une entreprise.</p>
+
+
 
          <!-- bouton cv et contacter -->
           <div class="flex flex-col pt-8 gap-4 sm:flex-row sm:mx-auto sm:w-max lg:mx-0" data-aos="fade-up" data-aos-delay="300">
@@ -80,6 +87,14 @@
 
 <script setup>
 import { ArrowRightIcon,ArrowDownTrayIcon } from '@heroicons/vue/16/solid';
+
+import { ref } from 'vue'
+
+const badges = ref([
+  { label: 'Vue.js Expert', color: 'bg-teal-400' },
+  { label: 'UI/UX Design', color: 'bg-violet-500' },
+  { label: 'Node.js', color: 'bg-red-400' },
+])
 </script>
 
 <style>

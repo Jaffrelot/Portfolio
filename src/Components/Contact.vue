@@ -3,12 +3,12 @@
       <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
   
         <div class="text-center m-16" data-aos="fade-up">
-          <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-700 dark:text-white mb-4">
             Me <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
               contacter
             </span>
           </h2>
-          <p class="text-blue-200 text-lg">
+          <p class="text-gray-700 dark:text-blue-200 text-lg">
             Collaborons ensemble
           </p>
         </div>
@@ -17,7 +17,14 @@
   
           <!-- INFOS -->
           <div data-aos="fade-right">
-            <h3 class="text-2xl font-bold text-white mb-6 md:text-center">
+            <h3 class="text-3xl font-bold text-blue-400 dark:text-white mb-6 md:text-start">
+              Vous avez un projet ?
+            </h3>
+
+            <h3 class="text-1xl text-gray-700 dark:text-blue-200 mb-6 md:text-start">
+              Je suis ouvert aux opportunités freelance et aux postes à temps plein. N'hésitez pas à me contacter pour discuter de votre projet.
+            </h3>
+            <h3 class="text-2xl font-bold text-gray-700 dark:text-white mb-6 md:text-center">
               Coordonnées
             </h3>
   
@@ -25,7 +32,7 @@
               <div class="flex items-center gap-4">
                 <EnvelopeIcon class="w-6 h-6 text-blue-400"/>
                 <div>
-                  <p class="text-white font-semibold">Email</p>
+                  <p class="text-blue-400 dark:text-white font-semibold">Email</p>
                   <p class="text-blue-200">andriatsitohainarivo7@gmail.com</p>
                 </div>
               </div>
@@ -33,7 +40,7 @@
               <div class="flex items-center gap-4">
                 <PhoneIcon class="w-6 h-6 text-blue-400"/>
                 <div>
-                  <p class="text-white font-semibold">Téléphone</p>
+                  <p class="text-blue-400 dark:text-white font-semibold">Téléphone</p>
                   <p class="text-blue-200">+261 38 86 666 49</p>
                 </div>
               </div>
@@ -41,7 +48,7 @@
               <div class="flex items-center gap-4">
                 <MapPinIcon class="w-6 h-6 text-blue-400"/>
                 <div>
-                  <p class="text-white font-semibold">Localisation</p>
+                  <p class="text-blue-400 dark:text-white font-semibold">Localisation</p>
                   <p class="text-blue-200">Tsaramandroso Fianarantsoa</p>
                 </div>
               </div>
@@ -54,7 +61,7 @@
   
               <div class="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <label class="text-white text-sm font-medium mb-2 block">Nom</label>
+                  <label class="text-blue-400 dark:text-white text-sm font-medium mb-2 block">Nom</label>
                   <input
                     v-model="form.name"
                     type="text"
@@ -63,7 +70,7 @@
                 </div>
   
                 <div>
-                  <label class="text-white text-sm font-medium mb-2 block">Email</label>
+                  <label class="text-blue-400 dark:text-white text-sm font-medium mb-2 block">Email</label>
                   <input
                     v-model="form.email"
                     type="email"
@@ -73,7 +80,7 @@
               </div>
   
               <div>
-                <label class="text-white text-sm font-medium mb-2 block">Sujet</label>
+                <label class="text-blue-400 dark:text-white text-sm font-medium mb-2 block">Sujet</label>
                 <input
                   v-model="form.sujet"
                   type="text"
@@ -82,7 +89,7 @@
               </div>
   
               <div>
-                <label class="text-white text-sm font-medium mb-2 block">Message</label>
+                <label class="text-blue-400 dark:text-white text-sm font-medium mb-2 block">Message</label>
                 <textarea
                   v-model="form.message"
                   rows="4"

@@ -6,15 +6,17 @@
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
                 <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">
                     Compétences
-                </span>& Experience
+                </span><span class="text-gray-700 dark:text-white">
+                    & Experience
+                </span>
             </h2>
-            <p class="text-blue-200 text-lg max-w-2xl mx-auto">
+            <p class="text-gray-700 dark:text-blue-200 text-lg max-w-2xl mx-auto">
                 Mes compétences techniques et mon expérience professionelle
             </p>
         </div>
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
                 <div data-aos="fade-right">
-                    <h3 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                    <h3 class="text-2xl font-bold text-gray-700 dark:text-white mb-8 flex items-center gap-3">
                         Compétences techniques
                     </h3>
                     <div class="space-y-6">
@@ -25,13 +27,13 @@
                                 <component :is="skill.icon" class="w-9 h-9" :class="skill.iconColor">
                                         
                                 </component>    
-                                <span>
+                                <span class="text-blue-400 dark:text-blue-200">
                                     {{ skill.titre }}
                                 </span>
                                 
                                 </span>
                                 
-                                <span :class="skill.pourcentageColor">
+                                <span :class="skill.pourcentageColor" class="text-blue-400 dark:text-blue-200">
                                     {{ skill.pourcentage }} %
                                 </span>
                             </div>
@@ -45,23 +47,23 @@
                     </div>
 
                     <div class="mt-12">
-                        <h4 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                        <h4 class="text-xl font-bold text-gray-700 dark:text-white mb-6 flex items-center gap-2">
                             <Squares2X2Icon class="w-6 h-6 text-cyan-400"/>
                             Technologies utilisées 
                         </h4>
                         <div class="flex flex-wrap gap-3">
-                            <span v-for="tech in techStack" :key="tech" class="px-4 py-2 bg-linear-to-r from-blue-500/20 border border-blue-400/30 rounded-full text-blue-200 text-sm font-medium hover:scale-105 transition-transform duration-300">
+                            <span v-for="tech in techStack" :key="tech" class="px-4 py-2 bg-linear-to-r from-blue-500/20 border border-blue-400/30 rounded-full text-blue-400 dark:text-blue-200 text-sm font-medium hover:scale-105 transition-transform duration-300">
                                 {{ tech }}
                             </span>
                         </div>
                     </div>
                     <div class="mt-12">
-                        <h4 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                        <h4 class="text-xl font-bold text-gray-700 dark:text-white mb-6 flex items-center gap-2">
                             <CogIcon class="w-6 h-6 text-cyan-400"/>
                             Outils et Design utilisées 
                         </h4>
                         <div class="flex flex-wrap gap-3">
-                            <span v-for="outD in outilDesign" :key="outD" class="px-4 py-2 bg-linear-to-r from-blue-500/20 border border-blue-400/30 rounded-full text-blue-200 text-sm font-medium hover:scale-105 transition-transform duration-300">
+                            <span v-for="outD in outilDesign" :key="outD" class="px-4 py-2 bg-linear-to-r from-blue-500/20 border border-blue-400/30 rounded-full text-blue-400 dark:text-blue-200 text-sm font-medium hover:scale-105 transition-transform duration-300">
                                 {{ outD }}
                             </span>
                         </div>
@@ -69,7 +71,7 @@
                 </div>
 
                 <div data-aos="fade-left">
-                    <h3 class="text-2xl font-bold text-white mb-8 flex items-center gap-2">
+                    <h3 class="text-2xl font-bold text-gray-700 dark:text-white mb-8 flex items-center gap-2">
                         <BriefcaseIcon class="w-8 h-8 text-cyan-400"/>
                         Expérience professionnelle
                     </h3>
@@ -86,7 +88,7 @@
                                     </span>
                                 </div>
                                 
-                                <p :class="exp.EntrepriseColor" class="font-medium mb-3">
+                                <p :class="exp.EntrepriseColor" class="font-medium mb-3 text-gray-700 dark:text-white">
                                   {{ exp.Entreprise }}  
                                 </p>
                                 <p class="text-blue-100 text-sm leading-relaxed">

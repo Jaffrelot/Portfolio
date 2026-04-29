@@ -1,32 +1,26 @@
-import { ref, onMounted, watch } from 'vue'
+import { ref, watch, onMounted } from 'vue'
 
 const isDark = ref(false)
 
 export function useDarkMode() {
-
   onMounted(() => {
+    // Lire la préférence sauvegardée ou la préférence système
     const saved = localStorage.getItem('theme')
-
-    if (
-      saved === 'dark' ||
-      (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    ) {
+    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       isDark.value = true
+      document.documentElement.classList.add('dark')
     }
   })
 
-  watch(isDark, (newValue) => {
-    if (newValue) {
+  const toggleDark = () => {
+    isDark.value = !isDark.value
+    if (isDark.value) {
       document.documentElement.classList.add('dark')
       localStorage.setItem('theme', 'dark')
     } else {
       document.documentElement.classList.remove('dark')
       localStorage.setItem('theme', 'light')
     }
-  }, { immediate: true })
-
-  const toggleDark = () => {
-    isDark.value = !isDark.value
   }
 
   return { isDark, toggleDark }

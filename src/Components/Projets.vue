@@ -3,12 +3,12 @@
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="text-center mb-16" data-aos="fade-up">
-
-                <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-700 dark:text-white mb-4">
                     Mes
                     <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">Projets</span> 
                 </h2>
-                <p class="text-blue-200 text-lg max-w-2xl mx-auto">
+                <p class="text-gray-700 dark:text-blue-200 text-lg max-w-2xl mx-auto">
                     Collection des projets que j'ai realisé pendant mes formations universitaire et stage
                 </p>
             </div>
@@ -32,7 +32,7 @@
                 <!-- Contenu du projet -->
                 <div class="p-6">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">{{ Proj.titre }}</h3>
-                    <p class="text-blue-100 text-sm leading-relaxed mb-4">{{ Proj.descr }}</p>
+                    <p class="text-gray-700 dark:text-blue-100 text-sm leading-relaxed mb-4">{{ Proj.descr }}</p>
 
                         <!-- technologie -->
                     <div class="flex flex-wrap gap-2 mb-4">

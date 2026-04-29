@@ -3,12 +3,12 @@
 <section>
     <div class="max-w-7xl mx-auto px-4 text-white sm:px-6 lg:px-8">
         <div class="text-center m-16" data-aos="fade-up">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-700 mb-4 dark:text-white">
                 Mes <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">
                         Services
                     </span>  
             </h2>
-            <p class="text-lg max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+            <p class="text-lg max-w-2xl mx-auto text-gray-700 dark:text-blue-200 mb-4" data-aos="fade-up" data-aos-delay="100">
                 Je conçois des solutions digitales modernes pour répondre à vos besoins.
             </p>
         </div>
@@ -24,10 +24,10 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
+                    <h3 class="text-xl font-bold dark:text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                         {{ service.titre }}
                     </h3>
-                    <p class="text-blue-100 leading-relaxed">
+                    <p class="text-gray-800 dark:text-blue-100 leading-relaxed">
                         {{ service.desc }}
                     </p>
                 </div>

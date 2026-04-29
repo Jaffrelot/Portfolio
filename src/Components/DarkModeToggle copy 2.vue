@@ -28,8 +28,12 @@
 <script setup>
 
 import { ref, onMounted, watch } from 'vue'
+
 const isDark = ref(false)
-onMounted(() => {
+
+export function useDarkMode() {
+
+  onMounted(() => {
     const saved = localStorage.getItem('theme')
 
     if (
@@ -53,5 +57,8 @@ onMounted(() => {
   const toggleDark = () => {
     isDark.value = !isDark.value
   }
+
+  return { isDark, toggleDark }
+}
 
 </script>
